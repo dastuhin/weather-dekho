@@ -1,0 +1,39 @@
+.daily-chart {
+  text-align: center;
+  width: 60%;
+  padding: 1.8% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.daily-chart p {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.chart-wrapper {
+  width: 100%;
+  height: 70%;
+  margin: 0 auto;
+  padding: 0 1%;
+}
+
+@media (max-width: 1023px) {
+  .daily-chart {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 597px) {
+  .daily-chart {
+    width: 100%;
+    margin: 20px auto 0 auto;
+  }
+
+  .daily-chart p {
+    font-size: 1.5rem;
+  }
+}

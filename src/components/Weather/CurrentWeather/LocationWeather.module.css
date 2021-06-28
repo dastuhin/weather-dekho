@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+.location-weather {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.timestamp {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 10% 0;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.temperature > h1 {
+  font-size: 2.5rem;
+  padding: 10% 0;
+}
+
+.icon-temp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-temp span {
+  border-radius: 25px;
+  box-shadow: var(--box-shadow);
+}
+
+.icon-temp h1 {
+  align-self: center;
+}
+
+.humidity-wind {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.humidity-wind h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.humidity-wind p {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 597px) {
+  .temperature > h1 {
+    padding: 5% 0;
+  }
+}

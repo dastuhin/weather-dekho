@@ -1,0 +1,16 @@
+.daily-humidity {
+  padding: 35px 30px 0px 30px;
+  margin: 0;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+@media (max-width: 597px) {
+  .daily-humidity {
+    justify-content: space-evenly;
+    padding: 35px 10px 0px 10px;
+  }
+}

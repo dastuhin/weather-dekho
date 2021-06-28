@@ -1,0 +1,23 @@
+.current-weather {
+    padding: 2% 2%;
+    margin: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width :1023px) {
+    .current-weather {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width :597px) {
+   .current-weather {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

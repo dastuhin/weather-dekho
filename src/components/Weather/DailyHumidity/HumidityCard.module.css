@@ -1,0 +1,25 @@
+.card-humidity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  margin: 0 15px 25px 15px;
+  width: 120px;
+  box-shadow: var(--box-shadow);
+}
+
+.card-humidity > p {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 2px 0 0 0;
+}
+
+.humidity {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.humidity > p:last-child {
+  margin: 2px 0 0 0;
+}
